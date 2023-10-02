@@ -19,7 +19,8 @@ app.use(cookieParser())
 
 // middleware for errors 
 app.use(cors({
-    credentials: true,origin: 'http://localhost:3000'
+    credentials: true,origin: ['http://localhost:3000', 'https://651b03b508cdb15a8083c2ef--astonishing-gelato-fcbfa0.netlify.app']
+
 }));
 
 // Set the cookie in the response headers
