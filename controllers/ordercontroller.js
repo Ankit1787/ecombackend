@@ -1,7 +1,7 @@
 const Order = require("../models/order");
 
 const { Errormiddleware } = require("../middleware/asyncerror");
-const ErrorHandler = require("../utils/errorHandler");
+const ErrorHandler = require("../utils/errorhandler");
 const { updatestock } = require("../utils/updatestatus");
 exports.createOrder = Errormiddleware(async (req, res, next) => {
  
