@@ -39,35 +39,3 @@ app.use('/api/v2/payment' ,require('./routes/paymentroutes'))
 app.use(errormiddleware)
 module.exports =app
 
-// Code snippet from c:\Users\anshu\bootstrap\TinDog Start Here\Ecom\server\models\order.js
-// const mongoose = require("mongoose");
-// 
-// const orderSchema = new mongoose.Schema({
-//   shipinginfo: {
-//     address: {
-//       type: String,
-//       required: true
-//     },
-//     city: {
-//       type: String,
-//       required: true
-//     },
-//     state: {
-//       type: String,
-//       required: true
-//     },
-//     country: {
-//       type: String,
-//       required: true
-//     },
-//     pincode: {
-//       type: Number,
-//       required: true
-//     },
-//     phoneno: {
-//       type: Number,
-//       required: true
-//     },
-//     orderitems: [
-app.use(errormiddleware)
-module.exports =app
